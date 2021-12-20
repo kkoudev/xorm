@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"xorm.io/xorm/schemas"
+	"github.com/kkoudev/xorm/schemas"
 )
 
 // FormatColumnTime format column time

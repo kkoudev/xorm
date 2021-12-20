@@ -9,11 +9,11 @@ import (
 	"reflect"
 
 	"xorm.io/builder"
-	"xorm.io/xorm/caches"
-	"xorm.io/xorm/convert"
-	"xorm.io/xorm/internal/statements"
-	"xorm.io/xorm/internal/utils"
-	"xorm.io/xorm/schemas"
+	"github.com/kkoudev/xorm/caches"
+	"github.com/kkoudev/xorm/convert"
+	"github.com/kkoudev/xorm/internal/statements"
+	"github.com/kkoudev/xorm/internal/utils"
+	"github.com/kkoudev/xorm/schemas"
 )
 
 const (

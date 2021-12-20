@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"xorm.io/builder"
-	"xorm.io/xorm/schemas"
+	"github.com/kkoudev/xorm/schemas"
 )
 
 // ErrUnsupportedExprType represents an error with unsupported express type

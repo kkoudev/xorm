@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"testing"
 
-	"xorm.io/xorm"
-	"xorm.io/xorm/convert"
-	"xorm.io/xorm/internal/json"
-	"xorm.io/xorm/schemas"
+	"github.com/kkoudev/xorm"
+	"github.com/kkoudev/xorm/convert"
+	"github.com/kkoudev/xorm/internal/json"
+	"github.com/kkoudev/xorm/schemas"
 
 	"github.com/stretchr/testify/assert"
 )

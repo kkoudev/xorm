@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"xorm.io/xorm/internal/utils"
-	"xorm.io/xorm/names"
+	"github.com/kkoudev/xorm/internal/utils"
+	"github.com/kkoudev/xorm/names"
 )
 
 func TestTransaction(t *testing.T) {

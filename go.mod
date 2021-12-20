@@ -1,4 +1,4 @@
-module xorm.io/xorm
+module github.com/kkoudev/xorm
 
 go 1.13
 

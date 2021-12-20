@@ -18,13 +18,13 @@ import (
 	"strconv"
 	"strings"
 
-	"xorm.io/xorm/contexts"
-	"xorm.io/xorm/convert"
-	"xorm.io/xorm/core"
-	"xorm.io/xorm/internal/json"
-	"xorm.io/xorm/internal/statements"
-	"xorm.io/xorm/log"
-	"xorm.io/xorm/schemas"
+	"github.com/kkoudev/xorm/contexts"
+	"github.com/kkoudev/xorm/convert"
+	"github.com/kkoudev/xorm/core"
+	"github.com/kkoudev/xorm/internal/json"
+	"github.com/kkoudev/xorm/internal/statements"
+	"github.com/kkoudev/xorm/log"
+	"github.com/kkoudev/xorm/schemas"
 )
 
 // ErrFieldIsNotExist columns does not exist

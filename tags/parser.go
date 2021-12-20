@@ -14,11 +14,11 @@ import (
 	"time"
 	"unicode"
 
-	"xorm.io/xorm/caches"
-	"xorm.io/xorm/convert"
-	"xorm.io/xorm/dialects"
-	"xorm.io/xorm/names"
-	"xorm.io/xorm/schemas"
+	"github.com/kkoudev/xorm/caches"
+	"github.com/kkoudev/xorm/convert"
+	"github.com/kkoudev/xorm/dialects"
+	"github.com/kkoudev/xorm/names"
+	"github.com/kkoudev/xorm/schemas"
 )
 
 var (

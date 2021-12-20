@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"xorm.io/builder"
-	"xorm.io/xorm/internal/utils"
-	"xorm.io/xorm/schemas"
+	"github.com/kkoudev/xorm/internal/utils"
+	"github.com/kkoudev/xorm/schemas"
 )
 
 func (statement *Statement) writeInsertOutput(buf *strings.Builder, table *schemas.Table) error {
